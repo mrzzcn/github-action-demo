@@ -8,7 +8,6 @@ const run = async (): Promise<void> => {
       core.setFailed('Sorry, mosquitos are not amazing 🚫🦟')
       return
     }
-    console.log('payload:', github.context.payload)
     const pusherName = github.context.payload.pusher.name
 
     const message = `👋 Hello ${pusherName}! You are an amazing ${creature}! 🙌`
