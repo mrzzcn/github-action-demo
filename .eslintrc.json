@@ -19,6 +19,7 @@
         "semi": false
       }
     ],
+    "indent": ["error", 2],
     // octokit/rest requires parameters that are not in camelcase
     "camelcase": "off",
     "@typescript-eslint/camelcase": ["error", {"properties": "never"}]

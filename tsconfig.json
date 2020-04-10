@@ -5,13 +5,18 @@
     "lib": ["es2015", "es2017"],
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": true,
     "removeComments": false,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false
   },
   "include": [".github/actions/**/*.ts", "**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts",
+  ]
 }
