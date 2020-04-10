@@ -1,3 +1,6 @@
+name: 'V2: HelloWorld'
+on: [push]
+
 steps:
   - name: Run this script
     run: |
