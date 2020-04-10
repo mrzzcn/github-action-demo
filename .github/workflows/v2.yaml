@@ -1,0 +1,6 @@
+steps:
+  - name: Run this script
+    run: |
+      echo "Hello world!"
+      echo "Wait, a multiline script?!?!"
+      echo "That's too good to be true!"
